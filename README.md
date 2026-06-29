@@ -1,64 +1,70 @@
-Yamaha PSR-F51 Reverse Engineering
+# Yamaha PSR-F51 Reverse Engineering
 
-This repository documents an initial reverse engineering and diagnostic process of a Yamaha PSR-F51 keyboard with multiple key failures.
+## Overview
 
-The project started as an attempt to understand why several keys were not producing sound correctly. Instead of only disassembling the keyboard, I decided to document the process as a technical learning project involving observation, hypothesis creation, hardware inspection, and future repair planning.
+This project documents the reverse engineering, fault diagnosis and repair attempt of a Yamaha PSR-F51 electronic keyboard.
 
-Project Status
+The objective was not only to repair the instrument, but also to understand its internal architecture, key scanning system and electronic components while documenting the complete engineering process.
 
-Status: paused / initial diagnostic documented.
+---
 
-This project is not a completed repair yet. The keyboard was opened, inspected, photographed, and documented. The next steps will require more electronics knowledge, proper tools, and possibly testing with a multimeter.
+## Objectives
 
-Device
+- Understand the internal architecture.
+- Diagnose the keyboard failure.
+- Study the key matrix.
+- Learn basic electronics.
+- Document the entire process.
 
-- Model: Yamaha PSR-F51
-- Type: Electronic keyboard
-- Main issue: multiple keys failing or producing weak/no sound
-- Estimated failure: around 80% of the keys affected
-- Failure behavior: gradual degradation over time
+---
 
-Initial Hypothesis
+## Symptoms
 
-The failure may be related to one or more of the following causes:
+- Approximately 80% of the keys stopped working.
+- The failure developed gradually over time.
+- Around 10–11 keys still produced sound.
 
-- Dust or dirt inside the key contact system
-- Degraded rubber contact membrane
-- Oxidation or poor contact in the key matrix
-- Loose or damaged connectors
-- Issue in the main board or key scanning circuit
+---
 
-These are only initial hypotheses. No final conclusion has been confirmed yet.
+## Investigation
 
-Initial Method
+The keyboard was completely disassembled.
 
-The first diagnostic stage included:
+During the investigation the following components were analyzed:
 
-- Opening the keyboard carefully
-- Photographing the internal structure
-- Observing the key assembly
-- Identifying possible contact areas
-- Documenting symptoms and possible causes
-- Writing notes about future testing steps
+- Main PCB
+- Key modules
+- Rubber contact strips
+- Flat cables
+- Speakers
+- Plastic structure
+- Possible oxidation
 
-What I Learned
+---
 
-This project helped me understand that hardware repair is not only about opening a device. It requires documentation, observation, testing, and careful reasoning before changing or replacing parts.
+## Tests Performed
 
-It also became a starting point for future studies in electronics, reverse engineering, robotics, and Python-based hardware projects.
+- Complete disassembly
+- Visual inspection
+- Contact cleaning
+- Manual activation of key contacts
+- Working key mapping
+- Oxidation inspection
 
-Next Steps
+---
 
-Planned future steps:
+## Current Status
 
-- Map which keys work and which keys fail
-- Test contacts manually
-- Use a multimeter to check continuity
-- Inspect the rubber membrane and key matrix
-- Clean contacts safely if needed
-- Study how the keyboard scans key presses
-- Explore possible future integration with Arduino, ESP32, or Python
+Investigation completed.
 
-Notes
+Further electrical testing is planned.
 
-This is a learning project. The goal is to document the process honestly, including what was tested, what was not tested, and what still needs to be understood.
+---
+
+## Lessons Learned
+
+- Reverse engineering methodology
+- Keyboard matrix operation
+- Flat cable identification
+- PCB inspection
+- Hardware documentation 
