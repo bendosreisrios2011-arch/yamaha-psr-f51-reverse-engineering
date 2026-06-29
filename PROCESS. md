@@ -1,0 +1,48 @@
+# Yamaha PSR-F51 Reverse Engineering
+
+## Day 1
+
+### Initial condition
+
+The keyboard had a progressive failure. Approximately 10–11 keys were still working while the majority produced no sound.
+
+---
+
+### Disassembly
+
+- Removed the bottom cover.
+- Removed the internal key modules.
+- Located the main PCB.
+- Identified the flat cables.
+- Identified the speakers.
+- Removed and inspected the rubber contact strips.
+
+---
+
+### Inspection
+
+- Visual inspection of the PCB.
+- Visual inspection of the key matrix.
+- Looked for damaged components.
+- Looked for oxidation.
+- Light cleaning of accessible parts.
+
+---
+
+### Testing
+
+Performed a manual test by pressing each rubber contact.
+
+61 contacts tested.
+
+Working contacts:
+
+2, 6, 13, 14, 15, 19, 28, 29, 30, 32 and 34.
+
+---
+
+### Reassembly
+
+The keyboard was completely reassembled after inspection.
+
+Further electrical testing will be performed later.
