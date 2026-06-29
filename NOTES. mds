@@ -1,0 +1,38 @@
+# Notes
+
+## Initial hypotheses
+
+- Dust accumulation.
+- Flat cable failure.
+- Key matrix failure.
+- PCB oxidation.
+- Main board failure.
+
+---
+
+## Findings
+
+- No obvious burned components.
+- Possible oxidation observed.
+- Flat cables visually intact.
+- Key mechanism appeared mechanically normal.
+- Most failures appear to be electrical rather than mechanical.
+
+---
+
+## Lessons learned
+
+- Internal structure of an electronic keyboard.
+- Function of flat cables.
+- Rubber contact operation.
+- PCB inspection.
+- Reverse engineering methodology.
+- Importance of documentation during a project.
+
+---
+
+## Future work
+
+- Test continuity using a multimeter.
+- Inspect connectors in more detail.
+- Confirm whether oxidation affects any electrical traces.
